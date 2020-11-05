@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main(){
+	
+	int a, b, c;
+	
+    printf("lutfen a b ve c degerlerini sira ile giriniz \n");
+    scanf("%d%d%d",&a,&b,&c);
+    
+    printf("denklemin sonucu : %d", a*a+b*b+3*c);
+	
+	
+	return 0;
+	}
+
+sonuç: 
+
+lutfen a b ve c degerlerini sira ile giriniz
+4
+6
+7
+denklemin sonucu : 73
+--------------------------------
+Process exited after 3.591 seconds with return value 0
+Press any key to continue . . .
