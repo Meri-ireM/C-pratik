@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main(){
+	
+	int bugun, dogumtarihi;
+	
+	printf("Bugunun tarihini giriniz.");
+	scanf("%d",&bugun);
+	
+	printf("dogum tarihinizi giriniz.");
+	scanf("%d", &dogumtarihi);
+	
+	printf("yasiniz : %d", bugun-dogumtarihi);
+	
+	
+	
+	return 0;
+	}
+
+sonuç:
+
+Bugunun tarihini giriniz.2020
+dogum tarihinizi giriniz.2002
+yasiniz : 18
+--------------------------------
+Process exited after 5.136 seconds with return value 0
+Press any key to continue . . .
