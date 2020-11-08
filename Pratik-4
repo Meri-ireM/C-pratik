@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main(){
+	
+	int a,b;
+	scanf("%d%d",&a,&b);
+	
+	if(a>b) {
+		printf("%d",a);
+	}
+	else{
+		printf("%d",b);
+	}
+	
+	return 0;
+}
+
+sonuç:
+
+80
+70
+80
+--------------------------------
+Process exited after 4.624 seconds with return value 0
+Press any key to continue . . .
+
+// girilen a sayısı daha büyük olduğu için onu çıktıladı.
