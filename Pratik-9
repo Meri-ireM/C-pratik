@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main() {
+	int kenar,alan,cevre;
+	printf("Karenin bir kenar uzunlugunu giriniz lutfen:");
+	scanf("%d",&kenar);
+	printf("Karenin alani %d, cevresi %d",kenar*kenar,kenar*4);
+	
+	return 0;
+}
+
+sonuç:
+Karenin bir kenar uzunlugunu giriniz lutfen:3
+Karenin alani 9, cevresi 12
+--------------------------------
+Process exited after 3.218 seconds with return value 0
+Press any key to continue . . .
