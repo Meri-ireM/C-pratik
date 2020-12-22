@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main() {
+	int x,v,t; //x:yol,v:hız,t:zaman
+	printf("Hizinizi giriniz:");
+	scanf("%d",&v); // "&" bunu unutma
+	printf("Gidilen zamani giriniz:");
+	scanf("%d",&t);
+	printf("Gidilen yol= %d",v*t);
+	
+	return 0;
+}
