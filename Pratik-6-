@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main() {
+	
+	int sayi= 0;
+	printf("Lutfen bir sayi giriniz: ");
+	scanf("%d",&sayi);
+	printf("Girilen sayi:%d",sayi); //! Bu satırı unutma lütfen yoksa cevap sadece rakam olur
+	
+return 0;
+}
+
+sonuç:
+Lutfen bir sayi giriniz: 9
+Girilen sayi:9
+--------------------------------
+Process exited after 1.908 seconds with return value 0
+Press any key to continue . . .
