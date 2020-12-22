@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main() {
+	int sayi1,sayi2;
+	printf("Iki tane sayi giriniz lutfen:\n");
+	scanf("%d\n %d",&sayi1,&sayi2);
+	printf("Girdiginiz sayilarin toplami: %d ", sayi1+sayi2);
+	
+	
+	return 0;
+}
+
+sonuç:
+Lutfen bir sayi giriniz: 9
+Girilen sayi:9
+--------------------------------
+Process exited after 1.908 seconds with return value 0
+Press any key to continue . . .
