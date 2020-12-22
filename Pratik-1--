@@ -2,7 +2,7 @@
 
 int main(){
 	
-	float saat= 1.0/3.0+ 1.0/8.0- 1.0/12.0;
+	float saat= 1.0/3.0+ 1.0/8.0- 1.0/12.0; //floatlaştırmak için .0 ekledik
 	printf("%f dakika", 1/saat*60);
 	
 	
