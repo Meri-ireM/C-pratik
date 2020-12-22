@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main() {
+	int kenar1,kenar2,alan,cevre;
+	printf("Dikdortgenin uzun ve kisa kenarini giriniz:\n");
+	scanf("%d\n %d",&kenar1,&kenar2);
+	printf("Dikdotgenin alani %d, cevresi %d",kenar1*kenar2,kenar1*2+kenar2*2);
+	
+	return 0;
+}
+sonuç:
+Dikdortgenin uzun ve kisa kenarini giriniz:
+6
+2
+Dikdotgenin alani 12, cevresi 16
+--------------------------------
+Process exited after 6.495 seconds with return value 0
+Press any key to continue . . .
