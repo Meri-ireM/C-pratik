@@ -1,0 +1,41 @@
+#include<stdio.h>
+int main() {
+	
+	
+	
+	for(int i=20 ;i<=50 ;i++){
+		if(i%2 == 1)
+			printf("  %d",i);
+		
+	}
+	
+	
+	return 0;
+}
+Sonuç:
+  21  23  25  27  29  31  33  35  37  39  41  43  45  47  49
+--------------------------------
+Process exited after 0.03613 seconds with return value 0
+Press any key to continue . . .
+
+YA DA
+
+#include<stdio.h>
+int main() {
+	
+	
+	
+	for(int i=20 ;i<=50 ;i+=2){    //!
+                                 //!
+			printf("  %d",i);
+		
+	}
+	
+	
+	return 0;
+}
+Sonuç:
+  21  23  25  27  29  31  33  35  37  39  41  43  45  47  49
+--------------------------------
+Process exited after 0.03613 seconds with return value 0
+Press any key to continue . . .
