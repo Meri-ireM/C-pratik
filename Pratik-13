@@ -1,0 +1,27 @@
+#include<stdio.h>
+int main() {
+	
+int girilen;
+int eb= 0;
+
+for(int i=0; i<5; i++){
+	scanf("  %d",&girilen);
+	if (girilen>eb)
+	
+	eb= girilen;
+	
+}	
+printf(" eb: %d",eb);
+
+	return 0;
+}
+Sonuç:
+5
+559
+62
+4
+123
+ eb: 559
+--------------------------------
+Process exited after 6.985 seconds with return value 0
+Press any key to continue . . .
