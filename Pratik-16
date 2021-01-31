@@ -1,0 +1,39 @@
+
+// "Sadece" 1e ve kendine bölünebilen sayılar yani kendisine kadar olan bütün sayılardan hiçbirine tam bölünmeyecek
+//flag= Bayrağı birisi kaldırıyor, döngü dönüyor dönüyor eğer işlem sonunda hala havada ise onun dediği oluyor 
+//eğer düşmüş ise düştüğünde çıktılanması
+//istenen çıktılanıyor yani değer doğruysa böyle yapılması lazım, aksi halde böyle olacak.
+
+#include <stdio.h> // girilen sayıların asal olup olmadığını kontrol eden kod
+
+int main(){
+	
+	int a=1,b;
+	scanf("%d", &b);
+	int flag= 0;
+	
+	while(a<b-1){
+		a++;
+		if(b%a ==0){
+			flag=1;
+			break;
+		}
+		
+	}
+	
+	if(flag==0)
+	    printf("sayi asal");
+	else 
+	    printf("sayi asal degil");
+	    
+	    
+	    return 0;
+	
+	}
+	
+sonuc: 
+17
+sayi asal
+--------------------------------
+Process exited after 5.007 seconds with return value 0
+Press any key to continue . . .
