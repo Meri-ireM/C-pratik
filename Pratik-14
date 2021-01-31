@@ -1,0 +1,27 @@
+#include <stdio.h> //kullanıcı -1 girene kadar devam eden döngü
+
+int main() {
+	int girilen= 0;
+	int eb= 0;
+	
+	while(girilen != -1){
+		scanf("%d", &girilen);
+		if(girilen>eb)
+		   eb= girilen;
+	}
+	
+	printf("eb: %d", eb);
+	
+	return 0;
+}
+
+sonuc:
+4
+5
+8
+200
+-1
+eb: 200
+--------------------------------
+Process exited after 12.81 seconds with return value 0
+Press any key to continue . . .
