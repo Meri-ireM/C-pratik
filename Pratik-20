@@ -1,0 +1,40 @@
+
+#include <stdio.h>
+
+int main(){
+	
+	int i,j; 
+	
+	for(i=5; i>=1; i--){
+		for(int k=0; k<5-i; k++){                    
+			printf(" ");
+		
+		}
+		
+	for (j=1; j<=i; j++){
+		printf("*");
+	}
+	printf("\n");
+	}
+	
+}
+
+sonuç:
+*****
+ ****
+  ***
+   **
+    *
+
+--------------------------------
+Process exited after 0.04549 seconds with return value 0
+Press any key to continue . . .
+
+Mantık: satırlardaki boşluk ve yıldız sayılarının toplamı 5
+
+    |5|         |0|            
+    |4|         |1|
+5-  |3|    =    |2|
+    |2|         |3|
+    |1|         |4|
+   yıldız      boşluk
