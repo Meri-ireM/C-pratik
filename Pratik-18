@@ -1,0 +1,25 @@
+//yıldız üçgeni
+#include <stdio.h>
+
+int main(){
+	
+	int i,j; 
+	for(i= 1; i<= 5; i++){
+		for(j=1; j<=i; j++ ){  //dıştaki döngünün değerini içteki döngüde kullanıyooruz
+			printf("*");
+		}
+		printf("\n");
+	}
+	return 0;
+}
+
+sonuc:
+*
+**
+***
+****
+*****
+
+--------------------------------
+Process exited after 0.05126 seconds with return value 0
+Press any key to continue . . .
