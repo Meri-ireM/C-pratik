@@ -1,0 +1,41 @@
+
+#include <stdio.h> // kullanıcı -1 girene kadar girilen sayıların ortalamasını bulmak
+
+int main (){
+	
+	float girilen= 0;
+	float toplam= 0;
+	float ort= 0;
+	float n= 0; // Döngünün içine yazmama sebebi, döngü her başa sardığında değer sıfırlanmasın diye
+	
+	while(girilen != -1){
+		
+		scanf("%f", &girilen);
+		n++;
+		toplam= toplam+ girilen;
+		
+	}
+	
+    n--;
+	toplam++; // programı durdurmak için girdiğimiz -1'i işleme katmasın diye.
+	
+	printf("kac sayi girildi: %.2f, toplam: %.2f ortalama: %.2f,", n, toplam , toplam/n);
+	
+	
+	return 0;
+	
+}
+
+sonuc:
+	
+5
+31
+17.3
+22
+4
+9
+-1
+kac sayi girildi: 6.00, toplam: 88.30 ortalama: 14.72,
+--------------------------------
+Process exited after 26.1 seconds with return value 0
+Press any key to continue . . .
