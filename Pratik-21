@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+void topla(int x, int y){
+	
+	printf("toplam: %d", x+y);
+	
+}
+
+int main(){
+	
+	int sayi1;
+	int sayi2;
+	
+	scanf("%d %d", &sayi1,&sayi2);
+	topla(sayi1,sayi2);
+	
+	return 0;
+	
+}
+
+sonuc;
+4
+3
+toplam: 7
+--------------------------------
+Process exited after 9.21 seconds with return value 0
+Press any key to continue . . .
