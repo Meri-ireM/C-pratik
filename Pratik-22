@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+int fact(int);
+int main(){
+	
+	printf("bir sayi giriniz: ");
+	int x;
+	scanf("%d",&x);
+	printf("5!+ girilen sayinin faktoriyeli: %d", fact(5)+ fact(x));
+	
+}
+
+int fact(int x){
+	
+	int sonuc= 1;
+	for(int i= 1; i<=x; i++){
+		
+		sonuc*=i;
+		
+	}
+	return sonuc;
+}
+sonuc:
+bir sayi giriniz: 3
+5!+ girilen sayinin faktoriyeli: 126
+--------------------------------
+Process exited after 1.526 seconds with return value 0
+Press any key to continue . . .
