@@ -1,0 +1,41 @@
+#include <stdio.h>
+
+// verilen sayıların kombinasyonunu bulma
+
+int fact(int);
+int comb(int,int);
+int main(){
+	
+	printf("iki sayi giriniz.\n");
+	int x,y;
+	
+	scanf("%d %d",&x,&y);
+	
+	printf("kombinasyonu %d", comb(x,y));
+	
+	return 0;
+	
+}
+
+int comb(int x, int y){  //C(n,r)= n!/(r!(n-r)!)
+
+    return fact(x)/ fact(y)*(fact(x-y));
+	
+}
+
+int fact(int x){
+	
+	int sonuc= 1;
+	for(int i=1; i<=x; i++){
+		sonuc*=i;
+	}
+	return sonuc;
+}
+sonuc:
+iki sayi giriniz.
+3
+2
+kombinasyonu 3
+--------------------------------
+Process exited after 3.678 seconds with return value 0
+Press any key to continue . . .
