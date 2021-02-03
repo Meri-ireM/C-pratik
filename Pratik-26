@@ -1,0 +1,57 @@
+// 1den 100 kadar olan asal sayılARIN toplamı
+
+#include<stdio.h>
+
+int main(){
+	
+	int sum= 0;  //kutu
+	
+	for(int d=1; d<=100; d++){
+		
+		int p=0;   //flag.
+		for(int i=2; i<=d-1; i++){
+			if(d%i==0){
+				p=1;
+			}
+		}
+		if(p==0){
+			
+			printf("%d\n",d);
+			sum= sum+d;
+			
+		}
+	}
+	printf("sum: %d",sum);
+	return 0;
+}
+sonuç:
+1
+2
+3
+5
+7
+11
+13
+17
+19
+23
+29
+31
+37
+41
+43
+47
+53
+59
+61
+67
+71
+73
+79
+83
+89
+97
+sum: 1061
+--------------------------------
+Process exited after 0.04916 seconds with return value 0
+Press any key to continue . . .
