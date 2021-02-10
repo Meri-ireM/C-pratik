@@ -1,0 +1,54 @@
+// bir sınıfta öğrenci notlarını okutan bir program
+// Öğrenci sayısı 10 olsun
+//Notların ortalamasının en büyüğünü ve en küçüğünü hesapla
+
+
+#include <stdio.h>
+
+int main(){
+	
+	int a[10];
+	
+	for(int i= 0; i<10; i++){
+		
+		printf("ogrenci notunu giriniz");
+		scanf("%d",&a[i]);
+		
+	}
+	
+	int enbuyuk= 0, enkucuk=100, toplam= 0;
+	for(int i=0; i<10; i++){
+		
+		if(a[i]> enbuyuk){
+			enbuyuk=a[i];
+		}
+	    if(a[i]< enkucuk){
+	    	enkucuk= a[i];
+		}
+		toplam += a[i];
+	}
+	
+	int ortalama= 0;
+	
+	ortalama= toplam/10;
+	printf("en buyuk:%d, en kucuk:%d, ortalama: %d,", enbuyuk, enkucuk, ortalama);
+
+return 0;	
+}
+
+sonuç:
+
+ogrenci notunu giriniz45
+ogrenci notunu giriniz65
+ogrenci notunu giriniz87
+ogrenci notunu giriniz98
+ogrenci notunu giriniz34
+ogrenci notunu giriniz56
+ogrenci notunu giriniz76
+ogrenci notunu giriniz21
+ogrenci notunu giriniz98
+ogrenci notunu giriniz65
+en buyuk:98, en kucuk:21, ortalama: 64,
+--------------------------------
+Process exited after 11.59 seconds with return value 0
+Press any key to continue . . .
