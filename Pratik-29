@@ -1,0 +1,31 @@
+/* 10'un altındaki 3 veya 5'in katları olan tüm doğal sayıları listelersek, 3, 5, 6 ve 9 elde ederiz. Bu katların
+
+toplamı 23'tür . 1000 dahil, altındaki 3 veya 5'in tüm katlarının toplamını bulun. */
+
+#include<stdio.h>
+
+int main(){
+	
+	int toplam=0;
+	
+	for(int i=1; i<=1000; i++){
+		
+		if(i%3==0 || i%5==0 ){
+			
+			toplam += i;
+		}
+		else{
+			continue;
+		}
+	}
+		
+		  printf("sonuc: %d", toplam);
+	    
+    return 0;
+}
+    
+sonuç: 
+sonuc: 234168
+--------------------------------
+Process exited after 0.03358 seconds with return value 0
+Press any key to continue . . .
