@@ -1,0 +1,26 @@
+// Kullanıcı Tarafından Girilen İki Tam Sayıyı toplama işlemi için C Programı
+
+#include <stdio.h>
+
+int main(){
+	
+	int i, c, b;
+	
+	printf("Toplamlarini istediginiz iki sayiyi giriniz lutfen:\n ");
+	scanf("%d %d", &i, &b);
+	
+	c= i+b;
+	
+	printf("Girdiginiz sayilarin toplamlari: %d",c);
+	
+	return 0;
+	
+}
+Sonuç:
+Toplamlarini istediginiz iki sayiyi giriniz lutfen:
+ 7
+6
+Girdiginiz sayilarin toplamlari: 13
+--------------------------------
+Process exited after 3.829 seconds with return value 0
+Press any key to continue . . .
