@@ -1,0 +1,21 @@
+C Kullanıcı Tarafından Girilen Bir Tamsayı Yazdırma Programı
+
+#include <stdio.h>
+
+int main(){
+
+	int i;
+
+	printf("Bir sayi giriniz lutfen: ");
+	scanf("%d", &i);
+	printf("Girdiginiz sayi: %d",i);
+
+	return 0;
+
+}
+sonuç: 
+Bir sayi giriniz lutfen: 7
+Girdiginiz sayi: 7
+--------------------------------
+Process exited after 1.787 seconds with return value 0
+Press any key to continue . . .
