@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+int main(){
+	
+	int *p;
+	int a= 10;
+	p= &a;
+	printf("%d",*p);
+	*p= 20;
+	printf("\n%d",a);
+	
+	return 0;
+	
+}
+Sonuc:
+10
+20
+--------------------------------
+Process exited after 0.04805 seconds with return value 0
+Press any key to continue . . .
