@@ -1,0 +1,24 @@
+#include<stdio.h>
+#include <stdlib.h>  // malloc için
+
+int main(){
+	int a[5]= {1,12,3,4,6};
+	for(int i= 0; i<5; i++)
+	    printf(" %d",a[i]);
+	
+	int *b= (int *)malloc(sizeof(int)*5);
+	b[3]= 8;
+	b[0]= 2;
+	*(b+1)= 10;
+	*(b+2)= 11;
+	b[4]= 14;
+	for(int i= 0; i<5; i++)
+	    printf(" %d",b[i]);
+	    
+	
+}
+Sonuc:
+ 1 12 3 4 6 2 10 11 8 14
+--------------------------------
+Process exited after 0.03913 seconds with return value 0
+Press any key to continue . . .
