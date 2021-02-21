@@ -1,0 +1,22 @@
+// Kullanıcı Tarafından Girilen Karakterin ASCII Değerini Bulan program
+
+#include<stdio.h>
+
+int main(){
+	
+	char a;
+
+	printf("Bir karakter giriniz lutfen: ");
+	scanf("%c", &a);
+	
+	printf(" %c karakterinin ACCII degeri: %d",a ,a);
+	
+	return 0;
+	
+}
+Sonuc:
+Bir karakter giriniz lutfen: A
+ A karakterinin ACCII degeri: 65
+--------------------------------
+Process exited after 9.317 seconds with return value 0
+Press any key to continue . . .
