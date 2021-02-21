@@ -1,0 +1,28 @@
+// int, float, double ve char boyutlarını Bulmak için program
+// size operatörü değişkenin boyutunu hesaplayacak.
+
+#include<stdio.h>
+
+int main(){
+	
+	int IntegerType;
+	float FloatType;
+	double DoubleType;
+	char CharType;
+	
+	printf("int boyutu:%ld bytes \n",sizeof(IntegerType));
+	printf("float boyutu:  %ld bytes \n",sizeof(FloatType));
+	printf("double boyutu: %ld bytes \n",sizeof(DoubleType));
+	printf("char boyutu:   %ld bytes \n",sizeof(CharType));
+	
+	return 0;
+}
+Sonuc:
+int boyutu:4 bytes
+float boyutu:  4 bytes
+double boyutu: 8 bytes
+char boyutu:   1 bytes
+
+--------------------------------
+Process exited after 0.06647 seconds with return value 0
+Press any key to continue . . .
