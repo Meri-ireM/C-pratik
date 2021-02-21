@@ -1,0 +1,54 @@
+// İki Ondalıklı Sayıyı Çarpma işlemi yapan C Programı
+
+#include<stdio.h>
+
+int main(){
+	
+	float a, b;
+	
+	printf("Iki tane ondalikli sayi giriniz lutfen: \n ");
+	scanf("%f %f",&a, &b);
+
+	printf("Carpma isleminin sonucu %.2f", a*b);
+	
+	return 0;
+	
+}
+Sonuc:
+Iki tane ondalikli sayi giriniz lutfen:
+8.789
+4.23
+Carpma isleminin sonucu 37.18
+--------------------------------
+Process exited after 25.71 seconds with return value 0
+Press any key to continue . . .
+
+YA DA
+
+// İki Ondalıklı Sayıyı Çarpma işlemi yapan C Programı
+#include<stdio.h>
+
+int main(){
+	
+	float a, b;
+	float c;
+	
+	printf("Iki tane ondalikli sayi giriniz lutfen: \n ");
+	scanf("%f %f",&a, &b);
+    
+    c= a*b;   //!
+    
+	printf("Carpma isleminin sonucu %.2f", c);
+	
+	return 0;
+	
+}
+Sonuc:
+Iki tane ondalikli sayi giriniz lutfen:
+4.56
+5.3
+Carpma isleminin sonucu 24.17
+--------------------------------
+Process exited after 11.73 seconds with return value 0
+Press any key to continue . . .
+
