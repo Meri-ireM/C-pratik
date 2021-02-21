@@ -1,0 +1,24 @@
+/* Kullanıcı Tarafından Girilen İki Tamsayının 
+Bölümünü ve Kalanını Bulan program */
+
+#include<stdio.h>
+
+int main() {
+
+int a, b;
+
+printf("Iki tam sayi giriniz lutfen: ");
+scanf("%d %d", &a, &b);
+
+printf("Girdiginiz sayilarin bolumu %d, bolumlerinden kalani %d", a/b, a%b);
+
+return 0;
+
+}
+Sonuc:
+Iki tam sayi giriniz lutfen: 35
+4
+Girdiginiz sayilarin bolumu 8, bolumlerinden kalani 3
+--------------------------------
+Process exited after 10.28 seconds with return value 0
+Press any key to continue . . .
